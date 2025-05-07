@@ -1,0 +1,50 @@
+# ===== Global =====
+.DS_Store
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== IDE & Editor Files =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ===== TypeScript =====
+*.tsbuildinfo
+
+# ===== Frontend (React + Tailwind + TypeScript) =====
+/Todo-App/node_modules/
+/Todo-App/.env*
+/Todo-App/build/
+/Todo-App/dist/
+/Todo-App/.next/
+/Todo-App/.turbo/
+/Todo-App/.parcel-cache/
+/Todo-App/.cache/
+/Todo-App/public/build/
+/Todo-App/**/*.js
+/Todo-App/**/*.jsx
+/Todo-App/**/*.js.map
+/Todo-App/**/*.d.ts
+/Todo-App/tsconfig.tsbuildinfo
+
+# ===== Backend (Express + MongoDB + TypeScript) =====
+/Server/node_modules/
+/Server/.env*
+/Server/build/
+/Server/dist/
+/Server/coverage/
+/Server/tmp/
+/Server/logs/
+/Server/data/db/
+/Server/**/*.js
+/Server/**/*.js.map
+/Server/**/*.d.ts
+/Server/tsconfig.tsbuildinfo
